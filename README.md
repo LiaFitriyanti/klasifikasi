@@ -61,7 +61,7 @@ for p in splot.patches:
     splot.annotate(format(p.get_height(), '.2f'), (p.get_x() + p.get_width() / 2., p.get_height()), 
                    ha = 'center', va = 'center', xytext = (0, 5), textcoords = 'offset points')
 ```
-![image](output2.png)
+![image](output 2.png)
 ## Data Preparation
 Pertama, import library yang akan digunakan.
 
