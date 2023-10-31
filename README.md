@@ -61,7 +61,7 @@ Langkah selanjutnya, import file dataset yang akan digunakan. Berhubungan menggu
 ``` python
     df = pd.read_csv("Prostate_Cancer.csv")
 ```
-Kemudian melakukan transformasi data pada atribut diagnosis_result agar bisa diolah menggunakan Logisic Regression dan menyimpan hasil transformasi pada file dataset baru.
+Kemudian melakukan transformasi data pada atribut diagnosis_result agar bisa diolah menggunakan Logistic Regression dan menyimpan hasil transformasi pada file dataset baru.
 ``` python
     from sklearn.preprocessing import LabelEncoder
     le = LabelEncoder()
