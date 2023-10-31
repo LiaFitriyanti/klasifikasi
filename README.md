@@ -38,15 +38,18 @@ https://www.kaggle.com/datasets/sajidsaifi/prostate-cancer
 
 ### Variabel-variabel pada Heart Failure Prediction Dataset adalah sebagai berikut:
 - id : ID pasien (int64)  
-- Diagnosis_result = hasil diagnosa ada dua type benign cancer / kanker jinak (0), malignant cancer / kanker ganas (1) (object)
-- Radius = arak antara pusat inti sel dengan tepi sel dari kanker (int64)  
-- Texture = tingkat perubahan pada tekstur kulit atau jaringan tubuh yang terkena kanker (int64)  
-- Perimeter = garis keliling inti sel yang diukur sebagai jumlah dari jarak antara titik-titik pada keliling inti sel kanker (int64)  
-- Area = luas area dari kanker (int64)  
-- Smoothness = tingkat kehalusan dari kanker (float64)
-- Compactness = ukuran kepadatan sel kanker (float64)
-- Symmetry = tingkat kesimetrisan atau ketidaksimetrisan sel kanker (float64)
-- Fractal_dimension = ukuran kompleksitas atau keberulangan pola pada sel kanker (float64)
+- diagnosis_result = hasil diagnosa ada dua type benign cancer / kanker jinak (0), malignant cancer / kanker ganas (1) (object)
+- radius = arak antara pusat inti sel dengan tepi sel dari kanker (int64)  
+- txture = tingkat perubahan pada tekstur kulit atau jaringan tubuh yang terkena kanker (int64)  
+- perimeter = garis keliling inti sel yang diukur sebagai jumlah dari jarak antara titik-titik pada keliling inti sel kanker (int64)  
+- area = luas area dari kanker (int64)  
+- smoothness = tingkat kehalusan dari kanker (float64)
+- compactness = ukuran kepadatan sel kanker (float64)
+- symmetry = tingkat kesimetrisan atau ketidaksimetrisan sel kanker (float64)
+- fractal_dimension = ukuran kompleksitas atau keberulangan pola pada sel kanker (float64)
+
+Note : diagnosis_result asal nya di visualisasi kan dengan B (benign cancer / kanker jinak) dan M (malignant cancer / kanker ganas) namun di ganti menjadi 0 (benign cancer / kanker jinak) dan 1 (malignant cancer / kanker ganas)
+
 
 Melihat tingkat perbedaan kanker prostat ganas(0) dan jinak(1) dari grafik tersebut terlihat bahwa pasien yang mengidap kanker prostat dengan type ganas lebih tinggi di banding yang jinak
 ``` python
