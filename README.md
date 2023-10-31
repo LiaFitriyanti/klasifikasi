@@ -68,35 +68,34 @@ Pertama, import library yang akan digunakan.
     import numpy as np
     import pandas as pd
     from sklearn.metrics import accuracy_score
-
-
+```
 Langkah selanjutnya, import file dataset yang akan digunakan. Berhubungan menggunakan vs code, kita tinggal import saja dengan catatan file dataset berada dalam satu folder dengan file jupyter.
-
+``` python
     df = pd.read_csv("Prostate_Cancer.csv")
-
+``` 
 Kemudian melakukan transformasi data pada atribut diagnosis_result agar bisa diolah menggunakan Logisic Regression dan menyimpan hasil transformasi pada file dataset baru.
-
+``` python
     from sklearn.preprocessing import LabelEncoder
     le = LabelEncoder()
     df['diagnosis_result'] = le.fit_transform(df['diagnosis_result'])
 
     df.to_csv('kanker_prostat.csv')
-
+``` 
 ## Modeling
 Model yang digunakan yaitu Logistic Regression. Pertama, import library yang akan digunakan.
-
+``` python
     from sklearn.model_selection import  train_test_split
     from sklearn.linear_model import LogisticRegression
-
+``` 
 Kemudian seleksi fitur yang akan digunakan dan memilih atribut yang akan dijadikan sebagai label.
-
+``` python
     X = df.drop(columns=['diagnosis_result', 'id'], axis=1)
     Y = df['diagnosis_result']
-
+``` 
 Selanjutnya, menentukan data yang akan dijadikan menjadi data training dan data testing. Data training berjumlah 80% dari total seluruh data sedangkan data testing berjumlah 20%.
-
+``` python
     x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, stratify=Y, random_state=2)
-
+``` 
 ## Evaluation
 Dengan menggunakan algoritma Logistic Regression, didapatkan hasil akurasi dari data training sebesar 0.8375 sedangkan untuk akurasi data testing sebesar 0.9
 
