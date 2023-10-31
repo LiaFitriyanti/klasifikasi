@@ -52,7 +52,7 @@ https://www.kaggle.com/datasets/sajidsaifi/prostate-cancer
 - Symmetry = tingkat kesimetrisan atau ketidaksimetrisan sel kanker (float64)
 - Fractal_dimension = ukuran kompleksitas atau keberulangan pola pada sel kanker (float64)
 
-Melihat tingkat perbedaan kanker prostat ganas(0) dan jinak(1) dari grafik tersebut
+Melihat tingkat perbedaan kanker prostat ganas(0) dan jinak(1) dari grafik tersebut terlihat bahwa pasien yang mengidap kanker prostat dengan type ganas lebih tinggi di banding yang jinak
 ``` python
 import seaborn as sns
 splot = sns.countplot(x = 'diagnosis_result', data = df)
