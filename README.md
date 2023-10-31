@@ -10,8 +10,8 @@ Kanker prostat adalah bentuk kanker yang berkembang di kelenjar prostat. Kanker 
   Referensi:
   Klasifikasi Penyakit Kanker Prostat Menggunakan Algoritma Naïve Bayes dan K-Nearest Neighbor
 
-  https://ojs.unikom.ac.id/index.php/komputika/article/view/9629 
-  https://lms--paralel-esaunggul-ac-id.webpkgcache.com/doc/-/s/lms-paralel.esaunggul.ac.id/mod/resource/view.php?id=201905
+  - https://ojs.unikom.ac.id/index.php/komputika/article/view/9629
+  - https://lms--paralel-esaunggul-ac-id.webpkgcache.com/doc/-/s/lms-paralel.esaunggul.ac.id/mod/resource/view.php?id=201905
 
 ## Business Understanding
 
