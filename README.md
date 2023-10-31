@@ -72,7 +72,10 @@ Pertama, import library yang akan digunakan.
 Langkah selanjutnya, import file dataset yang akan digunakan. Berhubungan menggunakan vs code, kita tinggal import saja dengan catatan file dataset berada dalam satu folder dengan file jupyter.
 ``` python
     df = pd.read_csv("Prostate_Cancer.csv")
-``` 
+```
+``` python
+df.head()
+```
 Kemudian melakukan transformasi data pada atribut diagnosis_result agar bisa diolah menggunakan Logisic Regression dan menyimpan hasil transformasi pada file dataset baru.
 ``` python
     from sklearn.preprocessing import LabelEncoder
