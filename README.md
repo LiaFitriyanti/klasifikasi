@@ -42,7 +42,7 @@ https://www.kaggle.com/datasets/sajidsaifi/prostate-cancer
 
 ### Variabel-variabel pada Heart Failure Prediction Dataset adalah sebagai berikut:
 - id : ID pasien (int64)  
-- Diagnosis_result = hasil diagnosa ada dua type benign cancer / kanker jinak (B), malignant cancer / kanker ganas (M) (object)
+- Diagnosis_result = hasil diagnosa ada dua type benign cancer / kanker jinak (0), malignant cancer / kanker ganas (1) (object)
 - Radius = arak antara pusat inti sel dengan tepi sel dari kanker (int64)  
 - Texture = tingkat perubahan pada tekstur kulit atau jaringan tubuh yang terkena kanker (int64)  
 - Perimeter = garis keliling inti sel yang diukur sebagai jumlah dari jarak antara titik-titik pada keliling inti sel kanker (int64)  
