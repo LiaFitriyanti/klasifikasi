@@ -57,7 +57,7 @@ Pertama, import library yang akan digunakan.
     import pandas as pd
     from sklearn.metrics import accuracy_score
 ```
-Langkah selanjutnya, import file dataset yang akan digunakan. Berhubungan menggunakan vs code, kita tinggal import saja dengan catatan file dataset berada dalam satu folder dengan file jupyter.
+Langkah selanjutnya, import file dataset yang akan digunakan. Berhubungan menggunakan vscode, kita tinggal import saja dengan catatan file dataset berada dalam satu folder dengan file jupyter.
 ``` python
     df = pd.read_csv("Prostate_Cancer.csv")
 ```
