@@ -102,4 +102,4 @@ Dengan menggunakan algoritma Logistic Regression, didapatkan hasil akurasi dari 
 ## Deployment
 https://klasifikasi-rnavpduykt3lmyvjxchx9k.streamlit.app/
 
-![Alt text](image-1.png)
+![Alt text](TampilanStreanlit.png)
