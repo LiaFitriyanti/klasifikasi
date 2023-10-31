@@ -15,6 +15,7 @@ Kanker pada prostat pria, kelenjar kecil seukuran kenari yang menghasilkan caira
   Klasifikasi Penyakit Kanker Prostat Menggunakan Algoritma Naïve Bayes dan K-Nearest Neighbor
 
   https://ojs.unikom.ac.id/index.php/komputika/article/view/9629 
+  https://pdfs.semanticscholar.org/07df/9109c5ac6e0aab7b5881403cac390d480fa4.pdf
 
 ## Business Understanding
 
