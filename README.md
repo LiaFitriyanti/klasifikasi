@@ -41,15 +41,15 @@ https://www.kaggle.com/datasets/sajidsaifi/prostate-cancer
 
 ### Variabel-variabel pada Heart Failure Prediction Dataset adalah sebagai berikut:
 - id : ID pasien (int64)  
-- diagnosis_result : hasil diagnosa dari inputan (object)
-- radius : rata-rata jarak dari pusat ke titik perimeter (int64)  
-- texture : tekstur (int64)  
-- perimeter : perimeter (int64)  
-- area : area (int64)  
-- smoothness : kelancaran (float64)
-- compactness : kekompakan (float64)
-- symmetry : simetri (float64)
-- fractal_dimension : dimensi fraktal (float64)
+- Diagnosis_result = hasil diagnosa ada dua type benign cancer / kanker jinak (B), malignant cancer / kanker ganas(M) (object)
+- Radius = arak antara pusat inti sel dengan tepi sel dari kanker (int64)  
+- Texture = tingkat perubahan pada tekstur kulit atau jaringan tubuh yang terkena kanker (int64)  
+- Perimeter = garis keliling inti sel yang diukur sebagai jumlah dari jarak antara titik-titik pada keliling inti sel kanker (int64)  
+- Area = luas area dari kanker (int64)  
+- Smoothness = tingkat kehalusan dari kanker (float64)
+- Compactness = ukuran kepadatan sel kanker (float64)
+- Symmetry = tingkat kesimetrisan atau ketidaksimetrisan sel kanker (float64)
+- Fractal_dimension = ukuran kompleksitas atau keberulangan pola pada sel kanker (float64)
 
 ## Data Preparation
 Pertama, import library yang akan digunakan.
