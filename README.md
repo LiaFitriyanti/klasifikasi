@@ -64,10 +64,11 @@ for p in splot.patches:
 ![image](output2.png)
 ## Data Preparation
 Pertama, import library yang akan digunakan.
-
+``` python
     import numpy as np
     import pandas as pd
     from sklearn.metrics import accuracy_score
+
 
 Langkah selanjutnya, import file dataset yang akan digunakan. Berhubungan menggunakan vs code, kita tinggal import saja dengan catatan file dataset berada dalam satu folder dengan file jupyter.
 
