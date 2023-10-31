@@ -5,11 +5,7 @@
 
 ## Domain Proyek
 
-Kanker prostat adalah bentuk kanker yang berkembang di kelenjar prostat.
-
-Singkatnya:
-
-Kanker pada prostat pria, kelenjar kecil seukuran kenari yang menghasilkan cairan mani. Prostat seorang pria menghasilkan cairan mani yang memelihara dan mengangkut sperma. Gejala termasuk kesulitan buang air kecil, tetapi kadang-kadang tidak ada gejala sama sekali. Kanker prostat diklasifikasikan sebagai adenokarsinoma atau kanker kelenjar yang dimulai ketika sel-sel kelenjar prostat mengalami mutasi menjadi sel kanker. Daerah kelenjar prostat dimana adenokarsinoma yang paling banyak ditemukan yaitu pada zona perifer. Awalnya, gumpalan kecil dari sel kanker masih terbatas pada kelenjar prostat yang normal. Kondisi ini dikenal sebagai karsinoma in situ atau prostate intraepithelial neoplasia(PIN). 
+Kanker prostat adalah bentuk kanker yang berkembang di kelenjar prostat. Kanker pada prostat pria, kelenjar kecil seukuran kenari yang menghasilkan cairan mani. Prostat seorang pria menghasilkan cairan mani yang memelihara dan mengangkut sperma. Gejala termasuk kesulitan buang air kecil, tetapi kadang-kadang tidak ada gejala sama sekali. Kanker prostat diklasifikasikan sebagai adenokarsinoma atau kanker kelenjar yang dimulai ketika sel-sel kelenjar prostat mengalami mutasi menjadi sel kanker. Daerah kelenjar prostat dimana adenokarsinoma yang paling banyak ditemukan yaitu pada zona perifer. Awalnya, gumpalan kecil dari sel kanker masih terbatas pada kelenjar prostat yang normal. Kondisi ini dikenal sebagai karsinoma in situ atau prostate intraepithelial neoplasia(PIN). 
 
   Referensi:
   Klasifikasi Penyakit Kanker Prostat Menggunakan Algoritma Naïve Bayes dan K-Nearest Neighbor
