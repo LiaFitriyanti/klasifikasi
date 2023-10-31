@@ -50,17 +50,6 @@ https://www.kaggle.com/datasets/sajidsaifi/prostate-cancer
 
 Note : diagnosis_result asal nya di visualisasi kan dengan B (benign cancer / kanker jinak) dan M (malignant cancer / kanker ganas) namun di ganti menjadi 0 (benign cancer / kanker jinak) dan 1 (malignant cancer / kanker ganas)
 
-
-Melihat tingkat perbedaan kanker prostat ganas(0) dan jinak(1) dari grafik tersebut terlihat bahwa pasien yang mengidap kanker prostat dengan type ganas lebih tinggi di banding yang jinak
-``` python
-import seaborn as sns
-splot = sns.countplot(x = 'diagnosis_result', data = df)
-
-for p in splot.patches:
-    splot.annotate(format(p.get_height(), '.2f'), (p.get_x() + p.get_width() / 2., p.get_height()), 
-                   ha = 'center', va = 'center', xytext = (0, 5), textcoords = 'offset points')
-```
-![image](output2.png)
 ## Data Preparation
 Pertama, import library yang akan digunakan.
 ``` python
@@ -94,7 +83,17 @@ Kemudian seleksi fitur yang akan digunakan dan memilih atribut yang akan dijadik
 Selanjutnya, menentukan data yang akan dijadikan menjadi data training dan data testing. Data training berjumlah 80% dari total seluruh data sedangkan data testing berjumlah 20%.
 ``` python
     x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, stratify=Y, random_state=2)
-``` 
+```
+Melihat tingkat perbedaan kanker prostat ganas(0) dan jinak(1) dari grafik tersebut terlihat bahwa pasien yang mengidap kanker prostat dengan type ganas lebih tinggi di banding yang jinak
+``` python
+import seaborn as sns
+splot = sns.countplot(x = 'diagnosis_result', data = df)
+
+for p in splot.patches:
+    splot.annotate(format(p.get_height(), '.2f'), (p.get_x() + p.get_width() / 2., p.get_height()), 
+                   ha = 'center', va = 'center', xytext = (0, 5), textcoords = 'offset points')
+```
+![image](output2.png)
 ## Evaluation
 Dengan menggunakan algoritma Logistic Regression, didapatkan hasil akurasi dari data training sebesar 0.8375 sedangkan untuk akurasi data testing sebesar 0.9
 
